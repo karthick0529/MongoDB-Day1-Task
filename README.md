@@ -2,7 +2,7 @@ MongoDB-Day1-Task:
 
 All 10 Questions given in the document is complete.
 
-A JS Document is uploaded which has the 10 queries with the output
+JS Document is uploaded which has the 10 queries with the output
 
 The Questions given in documents are, 
 
