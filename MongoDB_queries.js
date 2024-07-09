@@ -781,7 +781,7 @@ Guvi>
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
 
-9. Find products which contain product color indigo  and product price 492.00
+9. Find products which contain product color indigo and product price 492.00
 
 Output:
 
@@ -836,7 +836,10 @@ Guvi>
 
 Output:
 
-Before Deleting:
+Guvi> db.product.deleteMany({product_price:28})
+{ acknowledged: true, deletedCount: 1 }
+
+// Before Deleting:
 
 Guvi> db.product.find({product_price:28})
 [
@@ -850,14 +853,13 @@ Guvi> db.product.find({product_price:28})
   }
 ]
 
-Guvi> db.product.deleteMany({product_price:28})
-{ acknowledged: true, deletedCount: 1 }
-
-After Deleting: 
+// After Deleting: 
 
 Guvi> db.product.find({product_price:28})
 
 Guvi>
+
+  
   
   
   
