@@ -579,7 +579,8 @@ Guvi>
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   
 4. List the four product which are greater than 500 in price   
-
+NOTE : Output got only 3 products, only 3 products which are greater than 500 product_price.
+  
 Output:
 
 Guvi> db.product.find({product_price:{$gt:500}}).limit(4)
